@@ -27,3 +27,8 @@
 0 1 0 0 1 0 0 1 0 1
       Y
 0 1 0 0 1 0 0 1 0 1
+
+Wait... forgot to normalize the leftmost feature matrix
+       ({theta←theta - 0.003×((xmN+.×(sigmoid  ⍵ +.× xmN ← ⊃pretzel ⊂[2] Xm2) - Y)÷¯1↑⍴Xm2)} ⍣ 100000 )theta
+
+
